@@ -1,0 +1,239 @@
+.review-panel {
+  background-color: #EDF4FF;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: sticky;
+  top: 24px;
+}
+
+.review-panel-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.review-tag {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #64748b;
+}
+
+.review-panel-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin: 0;
+}
+
+.review-subtitle {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.empty-system {
+  padding: 20px 12px;
+  text-align: center;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.review-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 4px;
+}
+
+.review-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.review-group-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin: 0 0 2px;
+}
+
+.review-group-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-divider {
+  height: 1px;
+  background-color: #cbd5e1;
+  margin: 2px 0;
+}
+
+.review-row-shipping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e1b4b;
+  padding: 4px 0;
+}
+
+.shipping-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shipping-truck-icon {
+  flex-shrink: 0;
+}
+
+.shipping-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e1b4b;
+}
+
+.shipping-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.shipping-compare {
+  font-size: 12px;
+  color: #94a3b8;
+  text-decoration: line-through;
+}
+
+.free-shipping-tag {
+  color: #4E2FD2;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.totals-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.totals-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.guarantee-seal-left {
+  flex-shrink: 0;
+}
+
+.satisfaction-seal-img {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+}
+
+.totals-pricing-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.affirm-pill {
+  background-color: #4E2FD2;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.final-totals-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.original-total {
+  font-size: 16px;
+  color: #94a3b8;
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
+.final-total {
+  font-size: 26px;
+  font-weight: 800;
+  color: #4E2FD2;
+}
+
+.savings-congrats-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: #00A389;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.checkout-btn {
+  width: 100%;
+  height: 48px;
+  background-color: #4E2FD2;
+  color: #ffffff;
+  border: none;
+  padding: 13px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #3d23b3;
+}
+
+.checkout-btn:active {
+  transform: scale(0.99);
+}
+
+.save-later-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.save-later-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e1b4b;
+  text-decoration: underline;
+}
+
+.save-later-link:hover {
+  color: #4E2FD2;
+}
+
+.save-toast {
+  font-size: 12px;
+  font-weight: 700;
+  color: #00A389;
+}
